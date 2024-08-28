@@ -31,7 +31,7 @@ while game_is_on:
     snake.move_snake()
     #Detect collision with food.
     if snake.head.distance(food) < 15:
-        print("nom nom nom")
+        print("munch munch munch")
         food.refresh()
         snake.extend()
         scoreboard.increase_score()
